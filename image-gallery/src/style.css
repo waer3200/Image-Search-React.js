@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-height: 98vh;
+   
+}
+.containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.cards{
+    max-width: 26vw;
+    min-width: 26vw;
+    box-shadow: drop-shadow(0px -3px 4px #000) ;
+    height: 70vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 0.8rem;
+    border-radius: 25px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 60%;
+    border-bottom-left-radius: 0;
+}
+.textHolder{
+    margin: 0.5rem;
+    margin-left: 1rem;
+}
+.tagHolder{
+    margin: 0.5rem;
+    overflow-x: hidden;
+}
+.cardTitle{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: blueviolet;
+    font-size: 2vw;
+}
+.tagHolder{
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+    width: 100%;
+}
+.tag{
+    font-size: 1.25vw;
+    background-color: darkgrey;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    padding: 0.4rem;
+}
+li{
+    list-style: none;
+}
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    width: 38%;
+    
+}
+.elementContainer{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+#searchInput{
+    padding: 0.5rem;
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem;
+    border-radius: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border: 1px black solid ;
+    line-height: 20px;
+}
+#searchInput:focus{
+    border: none;
+}
+#searchButton{
+    width: 35%;
+    margin: auto;
+    padding: 0.5rem;
+    background-color: #0a9396;
+    color: white;
+    border-color: #0a9396;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    
+}
